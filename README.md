@@ -1,0 +1,3 @@
+This repository is going to show how I have used a HIGHLY unbalanced dataset - the Credit Card Fraud Detection dataet - from Kaggle. This is the first time I am working on such a highly imbalanced dataset, and I am learning how to deal with such scenarios.
+The dataset itself is huge, containing about 200k+ records. The target variables are 0 - for non fraudulent, and 1 - for fraudulent. The postive class 1 (fraudulent) accounts for only 0.17% of the whole datset.
+How am I going to sample data for modelling when there is so much imbalance? The notebook shows what I have learnt and done to overcome the problem.
