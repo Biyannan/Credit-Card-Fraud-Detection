@@ -11,5 +11,5 @@ Following are the sampling techniques that I have learnt -
 1. RANDOM UNDER-SAMPLING - Ramdomly REDUCES the instances of the MAJORITY class.
 2. RANDOM OVER-SAMPLING - Ramdomly INCREASES the instances of the MINORITY class.
 3. CLUSTER BASED OVER-SAMPLING - K-Means algorithm is applied independently to the minority and majority classes, and cluseters of each class is created. Each cluser is then over-sampled so that clusters of the same class have the  same number of instances and all classes have the same size.
-4. Informed over-sampling - Syntethic Minority Over Sampling Technique (SMOTE) - This process creates synthetic samples of the minorty class, which are then added to the main dataset. This method prevents over-fitting caused by random sampling as we are using synthetic samples and not randomly replicating the minority classes instances. Also, no useful information is lost.
+4. Informed over-sampling - Synthetic Minority Over Sampling Technique (SMOTE) - This process creates synthetic samples of the minorty class, which are then added to the main dataset. This method prevents over-fitting caused by random sampling as we are using synthetic samples and not randomly replicating the minority classes instances. Also, no useful information is lost.
 5. Modified Synthetic Minority Over Sampling Technique (MSMOTE)
